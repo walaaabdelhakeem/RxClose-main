@@ -7,6 +7,7 @@ import { BlankLayoutComponent } from './layouts/blank-layout/blank-layout.compon
 import { HomeComponent } from './components/home/home.component';
 import { MostsearchListComponent } from './features/searchpage/components/mostsearch-list/mostsearch-list.component';
 import { ContactpageComponent } from './features/contactuspage/contactpage/contactpage.component';
+import { CartListComponent } from './features/cart/components/cart-list/cart-list.component';
 
 export const routes: Routes = [
 
@@ -18,6 +19,7 @@ export const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'search', component: MostsearchListComponent },
       { path: 'Contactus', component: ContactpageComponent },
+      { path: 'cart', component: CartListComponent },
     ]
   },
   {
