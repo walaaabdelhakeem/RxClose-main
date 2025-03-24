@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MostsearchListComponent } from './features/searchpage/components/mostsearch-list/mostsearch-list.component';
 import { ContactpageComponent } from './features/contactuspage/contactpage/contactpage.component';
 import { CartListComponent } from './features/cart/components/cart-list/cart-list.component';
+import { CaregorylistComponent } from './features/category/caregorylist/caregorylist.component';
 
 export const routes: Routes = [
 
@@ -20,6 +21,7 @@ export const routes: Routes = [
       { path: 'search', component: MostsearchListComponent },
       { path: 'Contactus', component: ContactpageComponent },
       { path: 'cart', component: CartListComponent },
+      { path: 'category', component:CaregorylistComponent },
     ]
   },
   {
